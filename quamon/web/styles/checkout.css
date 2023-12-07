@@ -1,0 +1,202 @@
+/* Reset CSS */
+body, h1, h2, h3, p, label, input, textarea, button, table {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.header h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product-details {
+    flex-basis: 70%;
+}
+
+.payment-options {
+    flex-basis: 30%;
+}
+
+.customer-info {
+    margin: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #40c9a2;
+}
+.customer-info h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 26px;
+}
+.customer-info label
+{
+    display: flex;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+.customer-info label span {
+    font-size: 16px;
+}
+#firstname {
+    margin-left: 10px;
+}
+#lastname {
+    margin-left: 10px;
+}
+#email {
+    margin-left: 45px;
+}
+#phone {
+    margin-left: 35px;
+}
+#address {
+    margin-left: 25px;
+}
+.product-details {
+    justify-content: center;
+    text-align: center;
+}
+.product-details h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.product-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.product-details th,
+.product-details td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1.5px solid #40c9a2;
+}
+
+.product-details th {
+    font-size: 22px;
+}
+
+.product-details td {
+    font-size: 18px;
+}
+
+.product-details img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+/* .payment-methods {
+    flex-grow: 2;
+} */
+
+
+/* .payment-methods label,
+.payment-methods input {
+    display: block;
+    margin-bottom: 10px;
+} */
+
+.payment-methods {
+    justify-content: center;
+}
+.payment-methods h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.total-price {
+    margin: 0;
+}
+.total-price p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.total-price span {
+    margin-left: 5px;
+    font-weight: normal;
+}
+.payment-options {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.payment-options form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-options form select {
+    /* width: 200px; */
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.bank-options {
+    margin: 0;
+    margin-top: 10px;
+}
+input[type="radio"] {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.bank-options img {
+    width:40px;
+    height: 40px;
+    align-items: center;
+}
+
+.bank-options br {
+    clear: both;
+}
+
+.checkout-button {
+    margin: 0px;
+    text-align: center;
+}
+.checkout-button form {
+    margin-top: 10px;
+}
+.checkout-button form input[type="submit"] {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin: 20px;
+    background: #4ef5c6;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.checkout-button form input[type="submit"]:hover {
+    background: #555;
+}
+
